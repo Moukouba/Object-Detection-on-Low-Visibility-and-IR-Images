@@ -1,0 +1,32 @@
+papermill>=2.4.0
+dill>=0.3.5.1
+from-root>=1.0.2
+notebook>=7.0.0a7
+gdown
+flask-cors
+flask
+
+
+# YOLOv8 requirements
+# Usage: pip install -r requirements.txt
+
+# Base ------------------------------------------------------------------------
+gitpython>=3.1.30
+matplotlib>=3.3
+numpy>=1.18.5
+opencv-python>=4.1.1
+Pillow>=7.1.2
+psutil  # system resources
+PyYAML>=5.3.1
+requests>=2.23.0
+scipy>=1.4.1
+thop>=0.1.1  # FLOPs computation
+torch>=2.1.0   # see https://pytorch.org/get-started/locally (recommended)
+torchvision>=0.16.0 
+tqdm>=4.64.0
+ultralytics>=8.0.207 
+# Plotting --------------------------------------------------------------------
+pandas>=1.1.4
+seaborn>=0.11.0
+
+-e .
